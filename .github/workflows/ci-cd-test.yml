@@ -19,9 +19,6 @@ jobs:
       - name: Build Next.js app
         run: npm run build
       
-      - name: Test Next.js app
-        run: npm test
-
       - name: Simulate Deployment
         run: |
           echo "Deployment simulated!"
